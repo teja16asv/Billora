@@ -1,0 +1,10 @@
+[2026-03-08 11:35:42 +0000] [1] [INFO] Starting gunicorn 22.0.0
+[2026-03-08 11:35:42 +0000] [1] [INFO] Listening at: http://0.0.0.0:5000 (1)
+[2026-03-08 11:35:42 +0000] [1] [INFO] Using worker: sync
+[2026-03-08 11:35:42 +0000] [7] [INFO] Booting worker with pid: 7
+/usr/local/lib/python3.9/site-packages/flask_limiter/extension.py:333: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Added job "init_scheduler.<locals>.<lambda>" to job store "default"
+INFO:apscheduler.scheduler:Scheduler started
+INFO:app.scheduler:APScheduler started successfully.
